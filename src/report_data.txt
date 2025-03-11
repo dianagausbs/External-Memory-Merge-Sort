@@ -1,0 +1,72 @@
+External sort data:
+Compiled in debug mode
+using std::sort for internal sorting
+RAM size: 64 MB
+
+    10%
+    external-sort
+    sorting file of 6 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 1
+    Duration: 193 ms
+
+    50%
+    external-sort
+    sorting file of 32 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 1
+    Duration: 205 ms
+
+    100%
+    external-sort
+    sorting file of 64 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 1
+    Duration: 192 ms
+
+    1000%
+    external-sort
+    sorting file of 640 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 10
+    Duration: 21422 ms
+
+using our merge sort for internal sorting
+
+    external-sort
+    sorting file of 6 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 1
+    Duration: 33245 ms
+
+    external-sort
+    sorting file of 32 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 1
+    Duration: 30114 ms
+
+    external-sort
+    sorting file of 64 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 1
+    Duration: 30368 ms
+
+    sorting file of 640 MB
+    using defaults, block size: 16  MB,  main memory size: 64 MB
+    initial partitions: 10
+    Duration: 282477 ms
+
+Internal sort data:
+Compiled in debug mode
+
+    10%
+    internal-sort
+    sorting file of 6 MB internally
+    Duration: 4481 ms
+
+    50$
+    internal-sort
+    sorting file of 32 MB internally
+    Duration: 17874 ms
+
+
